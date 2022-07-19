@@ -1,0 +1,55 @@
+<!-- Question-8) Use the table tag to design given image -->
+
+<!-- Answer -->
+
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Question-8</title>
+  <link rel="stylesheet" href="1.css">
+</head>
+<body> 
+  <div style="width:500px">
+  <h3 style="text-align:center">Health Chart</h3>
+  <table border="1" cellpadding="10" >
+    <thead>
+        <tr>
+            <th rowspan="2">State of Health</th>
+            <th colspan="2">Fasting Value</th>
+            <th>After Eating</th>
+            
+        </tr>
+        <tr>
+          <td>Minimum</td>
+           <td>Maximum</td>
+           <td>2 hours after eating</td>
+        </tr>
+    </thead>
+
+    <tbody> 
+        <tr>
+           <td >Healthy</td> 
+           <td>70</td>
+           <td>100</td>
+           <td>Less than 140</td>
+        </tr>
+
+        <tr>
+            <td>Pre-Diabetes</td> 
+            <td>101</td>
+            <td>126</td>
+            <td>140 to 200</td>
+         </tr>
+
+         <tr>
+            <td>Diabetes</td> 
+            <td>More than 126</td> 
+            <td>N/A</td>
+            <td>More than 200</td>
+         </tr>            
+    </tbody>
+</table> 
+</div>
